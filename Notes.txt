@@ -6,3 +6,5 @@ Step 1:Open Terminal (Shortcut: Ctrl+Shift+`)
 Step 2:Write "git add ."
 Step 3:write "git commit -m "commit changes"
 Step 4:Write "git push origin main"
+
+To check the update status write "git status"
