@@ -1,4 +1,4 @@
-To add comment use <!-- any thing --> or use shortcut Ctrl+/
+To add comment use <!-- [any thing] --> or use shortcut Ctrl+/
 
 
 To update on Git Hub:
