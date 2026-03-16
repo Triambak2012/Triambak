@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Form</title>
+</head>
+<body>
+   <center>
+    <h1>
+        From for the ESIC & PF Registration
+    </h1>
+    </center>
+    <form action="">
+
+        <!-- First Name  -->
+        <label for="fName">First Name:</label>
+        <input type="text" id="fName" name="fName" required placeholder="As on Aadhaar" requried>
+        <br/><br>
+
+        <!-- Last Name -->
+        <label for="Lname">Last Name:</label>
+        <input type ="text" id="Lname" name="Lname" required placeholder=" As on Aadhaar" requried> 
+        <br/><br>
+        
+        <!-- Aadhaar Number -->
+        <label for="aadhaar">Aadhaar Number:</label>
+        <input type="text" id="aadhaar" name="aadhaar" maxlength="14" placeholder="XXXX-XXXX-XXXX">
+        <br><br>
+
+         <!-- Knowledge -->
+        <label for="">Knowledge:</label>
+             <input type="radio" id="Unskilled" name="knowledge">
+         <label for="Unskilled">Un Skilled</label>
+         <input type="radio" id="semiskilled" name="knowledge">
+         <label for="semiskilled">Semi Skilled</label>
+         <input type="radio" id="skilled" name="knowledge">
+         <label for="skilled">Skilled</label>
+         <input type="radio" id="highlyskilled" name="knowledge">
+         <label for="highlyskilled">Highly Skilled</label>
+         <br/><br>
+
+        <!-- Father's Name -->
+        <label for="fname">Father's Name:</label>
+        <input type="text" id="fname" name="fname" required placeholder="As on Aadhaar">
+       
+        <!-- Married -->
+        <label for="married">Marital Status:</label>
+        <select id="married" name="married">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+        </select>
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <br><br>
+         <!-- Qualification -->
+          <label for="qualification">Qualification:</label>
+          <input type="radio" id="Non Matric" name="qualification">
+         <label for="Non Matric">Non Matric</label>
+         <input type="radio" id="Matric" name="qualification">
+         <label for="Matric">Matric</label>
+         <input type="radio" id="semiskilled" name="qualification">
+         <label for="Matric">Semi Skilled</label>
+         <input type="radio" id="Graduate" name="qualification">
+         <label for="Graduate">Graduate</label>
+        <br><br>
+
+            <!-- Date of Birth -->
+         <label for="DOB">Date of Birth (As on Aadhaar):</label>
+         <input type="date" id="DOB" name="DOB" required >
+         <br/><br>
+
+         <!-- Mobile Number -->
+          <label for="mobno">Mobile Number:</label>
+          <input type="tel" id="mobno" name="mobno" maxlength="10" placeholder="Mention in Aadhaar" required>
+         <br/><br>
+
+         <!-- Pan Number -->
+          <label for="pan">PAN No.</label>
+          <input type="test" id="pan" name="pan" maxlength="10" placeholder="As on PAN Card" required>
+            <br/>
+
+        <!-- Bank Details -->
+            <p>Bank Details:</p>
+        <label for="bankname">Bank Name:</label>
+        <input type="text" id="bankname" name="bankname" required placeholder="Bank Name">
+        <label for="accno">Account Number:</label>
+        <input type="number" id="accno" name="accno" required placeholder="As on Bank Passbook">
+        <label for="branch">Branch Address:</label>
+        <input type="text" id="branch" name="branch" required placeholder="As on Bank Passbook">
+        <label for="ifsc">IFSC Code:</label>
+        <input type="text" id="ifsc" name="ifsc" required placeholder="As on Bank Passbook">
+        
+
+        <!-- submit button -->
+       <br><br>
+        <input type="submit" Value="Submit">
+    </form>
+    <!-- From Over -->
+    <strong><p>You here by declare:</p></strong>
+     <ul type="circle">
+            <li><p>Your all the information provided is true and correct.</p></li>
+            <li><p>The company is not responsible for any false information provided by you.</p></li>
+            <li><p>₹1800 will be cut from your salary every month for ESIC and PF contributions.</p></li>
+            <li><p>You agree to the terms and conditions.</p></li>
+        </ul>
+
+</html>
